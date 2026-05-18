@@ -37,6 +37,7 @@
 - work-patterns/Repository_Engagement.md - How you engage with projects
 - chievements/ - Completed milestones & wins
 - memories/ - Retrospectives and learnings
+- team-updates/ - Sanitized newsletter-style summaries for teammates
 
 **Learning & Setup:**
 - learning/ - Skill development paths
@@ -63,6 +64,7 @@
 - **Weekly reflections**: Run \.\scripts\New-WeeklyReflection.ps1\ (every Friday)
 - **Monthly retros**: Run \.\scripts\New-MonthlyRetrospective.ps1\ (month-end)
 - **Quarterly reviews**: Run \.\scripts\New-QuarterlyReview.ps1\ (quarter-end)
+- **Team updates**: Add sanitized monthly digest to \team-updates/\
 - **Decisions**: Add to \decisions/\ with status & review date
 - **Explorations**: Add to \ponderings/\ with status
 - **Reflections**: Add to \contemplations/\ or \memories/\

@@ -49,6 +49,9 @@ $content = @"
 
 **Status**: Completed
 **Projects Touched**: 
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidate**: yes/no
+**Evidence/source**: reflection / project lesson / decision / observed pattern
 
 ## Wins This Week
 
@@ -70,6 +73,12 @@ $content = @"
 
 - About my work: 
 - About team/projects: 
+
+## Shareable Signals
+
+- Team-useful lesson:
+- Needs sanitizing:
+- Possible newsletter item:
 
 ## Next Week's Focus
 
@@ -95,4 +104,5 @@ Write-Host "📁 Path: $filePath"
 Write-Host ""
 Write-Host "Remember to update:" -ForegroundColor Cyan
 Write-Host "  • memories/REFLECTIONS_INDEX.md (add new entry)"
+Write-Host "  • Mark Audience and Team insight candidate"
 Write-Host "  • Fill in sections during Friday EOD"

@@ -46,6 +46,9 @@ $content = @"
 **Period**: $Month-01 to $Month-$daysInMonth
 **Primary Focus**: 
 **Sessions**: 
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidates**:
+**Evidence/source**: weekly reflections / decisions / ponderings / work patterns
 
 ## Big Picture
 
@@ -114,6 +117,15 @@ $content = @"
 - What did your work enable for others?
 - Feedback received?
 
+## Newsletter Candidates
+
+- What I learned:
+- Pattern worth reusing:
+- Tooling or agent insight:
+- Decision/tradeoff to watch:
+- Practical recommendation:
+- Open question:
+
 ## Next Month's Direction
 
 **Theme**: 
@@ -152,5 +164,6 @@ Write-Host "📁 Path: $filePath"
 Write-Host ""
 Write-Host "Remember to:" -ForegroundColor Cyan
 Write-Host "  • Update memories/REFLECTIONS_INDEX.md"
+Write-Host "  • Draft team-updates/$Month.md from sanitized candidates"
 Write-Host "  • Compare with previous month"
 Write-Host "  • Reference related decisions/ponderings"

@@ -49,6 +49,12 @@ This repository documents your professional journey, learning, and technical wor
 - Energy levels and sustainable pace
 - Self-knowledge that informs decisions
 
+### Team Updates (./team-updates/)
+- Sanitized monthly summaries for teammates
+- Newsletter-style digests from reflections, decisions, and ponderings
+- Format: actionable lessons, reusable patterns, practical recommendations, open questions
+- Keep raw personal reflection private; share generalized patterns and source links
+
 ## Reflection System
 
 This repo includes automated reflection generators:
@@ -65,6 +71,8 @@ See `REFLECTION_SYSTEM.md` for setup and workflow.
 - Link related items (decisions → ponderings → learnings)
 - Keep entries honest and complete
 - Regular reflection cycle (weekly → monthly → quarterly)
+- Mark sharing boundaries with Audience and Team insight candidate fields
+- Convert the strongest sanitized insights into `team-updates/`
 - Archive systematically with retrospectives
 
 ## AI Tool Context

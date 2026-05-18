@@ -15,6 +15,9 @@ Use these templates to maintain consistency when adding new reflections, retrosp
 
 **Status**: Reflecting
 **Projects Touched**: CLI_AiInstructions, copilot-cli-for-beginners
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidate**: yes/no
+**Evidence/source**: reflection / project lesson / decision / observed pattern
 
 ## Wins This Week
 
@@ -36,6 +39,12 @@ Use these templates to maintain consistency when adding new reflections, retrosp
 
 - About my work: [Self-observation]
 - About team/projects: [External observation]
+
+## Shareable Signals
+
+- Team-useful lesson:
+- Needs sanitizing:
+- Possible newsletter item:
 
 ## Next Week's Focus
 
@@ -69,6 +78,9 @@ Use these templates to maintain consistency when adding new reflections, retrosp
 **Period**: May 1-31, 2026
 **Primary Focus**: [1-2 sentence summary of main theme]
 **Sessions**: [count]
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidates**: [count or short list]
+**Evidence/source**: weekly reflections / decisions / ponderings / work patterns
 
 ## Big Picture
 
@@ -156,6 +168,15 @@ What actually shipped/happened?
 - Feedback received from teammates?
 - How did this support team goals?
 
+## Newsletter Candidates
+
+- What I learned:
+- Pattern worth reusing:
+- Tooling or agent insight:
+- Decision/tradeoff to watch:
+- Practical recommendation:
+- Open question:
+
 ## Next Month's Direction
 
 **Theme**: [1-2 word focus, e.g., "Stabilization", "Expansion"]
@@ -204,6 +225,9 @@ What actually shipped/happened?
 
 **Period**: April - June 2026
 **Overarching Theme**: [1-2 sentence summary of quarter]
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidates**: [count or short list]
+**Evidence/source**: monthly retros / decisions / work patterns / team feedback
 
 ## Quarter Snapshot
 
@@ -272,6 +296,13 @@ Areas where people now see you as the expert:
 - How did you contribute to team success?
 - Feedback from peers/leads?
 - How are relationships evolving?
+
+## Shareable Synthesis
+
+- Patterns to teach:
+- Decisions worth broadcasting:
+- Practices to recommend:
+- Private context to remove:
 
 ## Personal Observations
 
@@ -354,6 +385,57 @@ At the end of this quarter, do you want to:
 ---
 
 *This review took [time]. Investment: Understanding your annual trajectory and staying intentional about growth.*
+```
+
+---
+
+## Team Update Newsletter
+
+**File**: `team-updates/YYYY-MM.md` (e.g., `2026-05.md`)
+**Frequency**: Monthly, after the monthly retrospective
+**Purpose**: Convert private reflection into sanitized, team-useful lessons
+
+```markdown
+# Team Update: May 2026
+
+**Source period**: May 1-31, 2026
+**Source files**: `memories/2026-05_Retrospective.md`, weekly reflections, related decisions/ponderings
+**Audience**: Team
+**Sanitization pass**: Complete / Needs review
+
+## What I Learned
+
+[One concise lesson from the month, generalized beyond personal context.]
+
+## Pattern Worth Reusing
+
+[A repeatable practice, workflow, or decision pattern teammates could apply.]
+
+## Tooling or Agent Insight
+
+[A concrete AI/tooling observation with practical implications.]
+
+## Decision or Tradeoff to Watch
+
+[A choice that may affect future work, including what would trigger revisiting it.]
+
+## Practical Recommendation
+
+[One action a teammate could take this month.]
+
+## Open Question
+
+[A useful unresolved question that could invite discussion or collaboration.]
+
+## Source Links
+
+- [Reflection or retrospective](../memories/...)
+- [Decision](../decisions/...)
+- [Pondering](../ponderings/...)
+
+---
+
+*Shared as sanitized patterns, not raw personal reflection.*
 ```
 
 ---

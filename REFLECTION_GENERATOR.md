@@ -2,6 +2,24 @@
 
 Quick tools to generate dated reflection skeletons automatically.
 
+## Bash Script: Generate Any Reflection
+
+Use `scripts/new-reflection.sh` on Linux/macOS or any shell environment with GNU `date`.
+
+```bash
+# Generate current week/month/quarter
+./scripts/new-reflection.sh weekly
+./scripts/new-reflection.sh monthly
+./scripts/new-reflection.sh quarterly
+
+# Generate specific periods
+./scripts/new-reflection.sh weekly 2026-06-01
+./scripts/new-reflection.sh monthly 2026-06
+./scripts/new-reflection.sh quarterly 2026_Q3
+```
+
+The Bash generator mirrors the PowerShell skeletons, including the `Audience`, `Team insight candidate`, and newsletter/team-sharing sections.
+
 ## PowerShell Script: Generate Weekly Reflection
 
 Save as `scripts/New-WeeklyReflection.ps1`

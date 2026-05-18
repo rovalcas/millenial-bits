@@ -19,6 +19,14 @@ Open PowerShell in the repo root and run:
 .\scripts\New-QuarterlyReview.ps1
 ```
 
+On Bash/Linux/macOS, run:
+
+```bash
+./scripts/new-reflection.sh weekly
+./scripts/new-reflection.sh monthly
+./scripts/new-reflection.sh quarterly
+```
+
 ### Option 2: Add to PowerShell Profile (Recommended)
 
 **Find your profile**:
@@ -59,6 +67,8 @@ New-QuarterlyReview -Quarter "2026_Q3"
 ```powershell
 # Step 1: Generate skeleton
 New-WeeklyReflection
+# Bash alternative:
+# ./scripts/new-reflection.sh weekly
 
 # Step 2: Open and fill in
 code memories\2026-05_Week_3_Reflection.md
@@ -73,6 +83,8 @@ code memories\REFLECTIONS_INDEX.md
 - 1-2 blockers (and resolutions)
 - Key learning moments
 - Work metrics (sessions, PRs, focus %)
+- Audience boundary: Private, Sanitized, or Shareable
+- 1-3 team insight candidates, only if they exist
 
 ---
 
@@ -83,6 +95,8 @@ code memories\REFLECTIONS_INDEX.md
 ```powershell
 # Step 1: Generate skeleton
 New-MonthlyRetrospective
+# Bash alternative:
+# ./scripts/new-reflection.sh monthly
 
 # Step 2: Open, analyze, fill
 code memories\2026-05_Retrospective.md
@@ -97,6 +111,36 @@ code memories\REFLECTIONS_INDEX.md
 - Look for patterns (productivity, focus, energy)
 - Compare to previous month
 - Set priorities for next month
+- Select the strongest newsletter candidates
+- Sanitize personal/project-specific details before sharing
+
+---
+
+## Team Update Workflow
+
+**Monthly, after the monthly retrospective (30-45 min)**
+
+```powershell
+# Step 1: Review the month's reflection outputs
+code memories\2026-05_Retrospective.md
+
+# Step 2: Draft the team-facing digest
+code team-updates\2026-05.md
+```
+
+**What to publish**:
+- What I learned
+- Pattern worth reusing
+- Tooling or agent insight
+- Decision/tradeoff to watch
+- Practical recommendation
+- Open question
+
+**Sharing boundary**:
+- Keep raw personal reflection private by default
+- Share sanitized patterns and practical recommendations
+- Remove customer, teammate, and project-sensitive details
+- Link source files inside the repo so the claim remains traceable
 
 ---
 
@@ -107,6 +151,8 @@ code memories\REFLECTIONS_INDEX.md
 ```powershell
 # Step 1: Generate skeleton
 New-QuarterlyReview
+# Bash alternative:
+# ./scripts/new-reflection.sh quarterly
 
 # Step 2: Do strategic assessment
 code memories\2026_Q2_Quarterly_Review.md
@@ -137,6 +183,8 @@ Scripts auto-generate filenames. Don't rename manually.
 | Monthly | `YYYY-MM_Retrospective.md` | `2026-05_Retrospective.md` |
 | Quarterly | `YYYY_QN_Quarterly_Review.md` | `2026_Q2_Quarterly_Review.md` |
 
+PowerShell and Bash generators write the same filenames and sections.
+
 ---
 
 ## Timeline
@@ -145,6 +193,7 @@ Scripts auto-generate filenames. Don't rename manually.
 |---------|------|----------|--------|
 | Weekly | Friday EOD | 15 min | Quick |
 | Monthly | Last day of month | 90 min | Medium |
+| Team update | After monthly retro | 30-45 min | Shareable |
 | Quarterly | Last day of quarter | 2-3 hrs | Deep |
 | Annual | Dec 31 | 3-4 hrs | Strategic |
 
@@ -182,6 +231,14 @@ When creating reflections, reference:
 - `[My decision](../decisions/AI_Platform_Focus.md)`
 - `[Project context](../projects/active/CLI_AiInstructions.md)`
 - `[Pondering](../ponderings/AI_Agent_Governance.md)`
+
+### Promote Shareable Lessons
+
+After each monthly retro:
+- move durable choices into `decisions/`
+- move repeated behavior into `work-patterns/`
+- keep unresolved questions in `ponderings/`
+- summarize sanitized lessons in `team-updates/`
 
 ---
 
@@ -234,7 +291,7 @@ Once you have 3-4 months of reflections:
 1. **Review trends** - Weekly metrics → monthly patterns → quarterly arc
 2. **Update REFLECTIONS_INDEX.md** - It becomes your knowledge base timeline
 3. **Reference decisions** - When making choices, check what you learned before
-4. **Teach from reflections** - Share patterns with team, adjust approach
+4. **Teach from reflections** - Publish sanitized team updates, adjust approach
 5. **Annual review** - Synthesize year's learnings into single powerful narrative
 
 ---

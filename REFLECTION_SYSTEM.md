@@ -144,6 +144,7 @@ Each layer adds more context, reveals deeper patterns.
 - `ponderings/` - Open questions
 - `work-patterns/` - Self-knowledge
 - `INDEX.md` - Master navigation
+- `team-updates/` - Sanitized monthly summaries for teaching teammates
 
 **How to use**: Reference these files when writing reflections. Links compound understanding.
 
@@ -161,7 +162,9 @@ Each layer adds more context, reveals deeper patterns.
 
 5. **Look for patterns** - After 3 months, read all weeklies + monthlies at once. Patterns emerge.
 
-6. **Teach from reflections** - Share insights with team. Makes them more real and helps others.
+6. **Teach from reflections** - Share sanitized patterns with team. Makes them more real and helps others without exposing raw personal notes.
+
+7. **Mark the sharing boundary** - Use `Audience`, `Team insight candidate`, and `Evidence/source` fields so private reflection can safely feed public learning.
 
 ---
 

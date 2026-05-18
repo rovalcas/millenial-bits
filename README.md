@@ -13,13 +13,15 @@ A personal knowledge repository documenting my journey with code, AI tooling, in
 - **learning/** - Skills in progress, courses, resources
 - **work-patterns/** - Observations about my coding habits, productivity, focus areas
 - **achievements/** - Milestones, wins, breakthroughs
+- **team-updates/** - Sanitized newsletter-style summaries for sharing lessons with teammates
 
 ## What's Inside
 
-- **11 directories** for different aspects of your tech life
+- **12 directories** for different aspects of your tech life
 - **Template system** for consistent reflection capture
 - **Automated generators** for weekly/monthly/quarterly reviews
 - **Timeline index** showing progression over time
+- **Team update workflow** for turning private reflection into shareable lessons
 - **Sample entries** showing what a filled-in reflection looks like
 
 *Note: This repository contains personal observations, reflections, and learning notes across various projects and work.*

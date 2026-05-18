@@ -42,6 +42,9 @@ $content = @"
 
 **Period**: 
 **Overarching Theme**: 
+**Audience**: Private / Sanitized / Shareable
+**Team insight candidates**:
+**Evidence/source**: monthly retros / decisions / work patterns / team feedback
 
 ## Quarter Snapshot
 
@@ -93,6 +96,13 @@ Areas where people now see you as the expert:
 
 - How did you contribute to team success?
 - Feedback from peers/leads?
+
+## Shareable Synthesis
+
+- Patterns to teach:
+- Decisions worth broadcasting:
+- Practices to recommend:
+- Private context to remove:
 
 ## Personal Observations
 
@@ -174,5 +184,6 @@ Write-Host "📁 Path: $filePath"
 Write-Host ""
 Write-Host "Remember to:" -ForegroundColor Cyan
 Write-Host "  • Update memories/REFLECTIONS_INDEX.md"
+Write-Host "  • Promote durable lessons into team-updates/ or work-patterns/"
 Write-Host "  • Assess progress on quarterly goals"
 Write-Host "  • Set direction for next quarter"
