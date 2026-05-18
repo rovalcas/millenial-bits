@@ -1,3 +1,8 @@
+---
+name: weekly-reflection-assistant
+description: Assist with weekly reflection capture by turning conversational notes into a structured weekly reflection.
+---
+
 # SKILL.md: Weekly Reflection Assistant
 
 **Skill Name**: Weekly Reflection Assistant

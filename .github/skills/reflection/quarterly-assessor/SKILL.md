@@ -1,3 +1,8 @@
+---
+name: quarterly-strategic-assessor
+description: Assess three monthly retrospectives to synthesize a quarterly strategic view.
+---
+
 # SKILL.md: Quarterly Strategic Assessor
 
 **Skill Name**: Quarterly Strategic Assessor

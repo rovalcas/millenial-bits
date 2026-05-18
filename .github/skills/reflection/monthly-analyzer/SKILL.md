@@ -1,3 +1,8 @@
+---
+name: monthly-pattern-analyzer
+description: Analyze weekly reflections to extract monthly patterns, trends, and insights.
+---
+
 # SKILL.md: Monthly Pattern Analyzer
 
 **Skill Name**: Monthly Pattern Analyzer
